@@ -11,7 +11,7 @@ curl -sL https://deb.nodesource.com/setup_14.x | bash -
 
 # Install Node & NPM
 sudo apt-get install gcc g++ make
-apt-get install -y nodejs npm
+sudo apt-get install -y nodejs
 
 # To install the Yarn package manager
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
